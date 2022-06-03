@@ -33,7 +33,11 @@ section{
     margin-top: 64px;
 }
 .fixed-footer a{
-    font-size: 10px;
+    font-size: 13px;
+    color: var(--white);
+}
+.fixed-footer a i{
+    font-size: 13px;
     color: var(--white);
 }
 .fixed-header, .fixed-footer{
@@ -42,6 +46,7 @@ section{
     background: var(--darkThemeBackground);
     padding: 10px 0;
     color: var(--white);
+    z-index: 99;
 }
 .fixed-header{
     top: 0;
@@ -125,3 +130,7 @@ p{
 .crad-dark p{
     font-size: 14px;
 }
+/* .fixed-footer nav ul li{
+    display: inline-block;
+    justify-content: space-between;
+} */

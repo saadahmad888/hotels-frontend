@@ -134,3 +134,18 @@ p{
     display: inline-block;
     justify-content: space-between;
 } */
+@media only screen and (min-width: 768px) {
+    .mobile-view{
+        display: none;
+    }
+}
+@media only screen and (min-width: 768px) {
+    .desktop-view{
+        display: Block;
+    }
+}
+@media only screen and (max-width: 768px) {
+    .desktop-view{
+        display: none;
+    }
+}

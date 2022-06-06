@@ -73,6 +73,18 @@ body{
     color: var(--white);
     border-color: var(--primary);
 }
+.btn-outline-primary{
+    background-color: transparent;
+    border-radius: 60px;
+    border: 1px solid var(--primary);
+    color: var(--primary);
+}
+.btn-outline-primary:hover{
+    background-color: var(--primary);
+    border-radius: 60px;
+    border: 1px solid var(--primary);
+    color: var(--white);
+}
 .choose-langauge-screen-btn{
     margin-top: 130px;
     margin-bottom: 10px;
@@ -230,6 +242,20 @@ p{
     width: 15px;
     height: 15px;
     margin-left: -22px;
+}
+.custom-login-mercurio-input{
+    border-radius: 60px;
+    border: 1px solid var(--primary);
+    background: var(--lightBackground);
+}
+.custom-login-mercurio-input:focus{
+    border-radius: 60px;
+    border: 1px solid var(--primary);
+    background: var(--lightBackground);
+}
+.custom-login-mercurio-input::placeholder{
+    font-size: 14px;
+    font-weight: 400;
 }
 @media only screen and (min-width: 768px) {
     .mobile-view{

@@ -65,7 +65,8 @@ body{
     border-color: var(--primary);
 }
 .choose-langauge-screen-btn{
-    margin-top: 80px;
+    margin-top: 130px;
+    margin-bottom: 10px;
 }
 a{
     text-decoration: none;

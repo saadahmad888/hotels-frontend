@@ -131,7 +131,7 @@ nav a{
     display: inline-block;
 }
 p{
-    font-size: 12px;
+    font-size: 14px;
     color: var(--white);
 }
 .notification-dot{
@@ -256,6 +256,18 @@ p{
 .custom-login-mercurio-input::placeholder{
     font-size: 14px;
     font-weight: 400;
+}
+.large-icon-size{
+    font-size: 60px;
+}
+.start-screen-background{
+    background-image: url('../images/start-bg.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 75px 30px;
+}
+.bg-overlay{
+    background-color: #0a10198c;
 }
 @media only screen and (min-width: 768px) {
     .mobile-view{
